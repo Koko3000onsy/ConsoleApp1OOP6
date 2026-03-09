@@ -51,6 +51,27 @@
             //static class/sttatic method , the first parameter implemented with this keyword
             //d. $20.00
             #endregion
+            Console.WriteLine(" Cinema Opened ");
+            Console.WriteLine(" Projector ON");
+            var ticket1 = new StandardTicket(1, "Movie A", 10);
+            var ticket2 = new MaxTicket(2, "Movie B", 15, true);
+            var ticket3 = new VIPTicket(3, "Movie C", 20, false,50);
+            ticket1.Book();
+            ticket2.Book();
+            ticket3.Book();
+            var Cinema=new Cinema();
+            Cinema.AddTicket(ticket1);
+            Cinema.AddTicket(ticket2);
+            Cinema.AddTicket(ticket3);
+            Cinema.AllTickets();
+            Cinema.FinalPrices();
+            Console.WriteLine("Extension Method: Receipt");
+            Console.WriteLine(ticket2.Receipt());
+            Ticket[] tickets = {ticket1, ticket2, ticket3};
+            Console.WriteLine("Extension Method: TotalRevenue");
+            Console.WriteLine(tickets.TotalRevenue()); 
+            Console.WriteLine(" Projector OFF");
+            Console.WriteLine(" Cinema Closed ");
         }
     }
 }
