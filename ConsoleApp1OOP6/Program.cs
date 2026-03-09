@@ -30,6 +30,15 @@
             //and you want to share code among them.
             //Choose an interface when you want to define a contract that multiple classes can implement
             #endregion
+            #region Q3
+            //a . can not because i can not make object from abstract class
+            //b . PowerConsumption() abstract method 
+            //Status() virtual method
+            //Label()  concrete method
+            //c. standby why? The Toaster class does not override this method
+            //,Since Toaster does not provide its own Status() method,
+            //it inherits the default implementation from Appliance.
+            #endregion
         }
     }
 }
