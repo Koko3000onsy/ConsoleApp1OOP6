@@ -15,6 +15,21 @@
             //but we don't know how the website works behind the scenes .
             //encapsulation EX : your data is securied can show in login , order system .
             #endregion
+            #region Q2 
+            //defrence betwwen abstract class and interface in c# is that an abstract class can have both abstract and non-abstract members,
+            //while an interface can only have abstract members.
+            //abstract class can have constructors, fields, properties, methods and events,
+            //while an interface can only have methods and properties.
+            //abstract class can have access modifiers for its members,
+            //while all members of an interface are public by default.
+            //abstract class can provide a default implementation for some of its members,
+            //while an interface cannot provide any implementation.
+            //abstract class can be inherited by only one class,
+            //while an interface can be implemented by multiple classes.
+            //Choose an abstract class when you want to provide a common base class for a group of related classes
+            //and you want to share code among them.
+            //Choose an interface when you want to define a contract that multiple classes can implement
+            #endregion
         }
     }
 }
