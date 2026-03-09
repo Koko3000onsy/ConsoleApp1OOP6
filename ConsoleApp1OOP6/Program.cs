@@ -39,6 +39,18 @@
             //,Since Toaster does not provide its own Status() method,
             //it inherits the default implementation from Appliance.
             #endregion
+            #region Q4
+            //a. A partial class in C# is a class whose definition is split across multiple files,
+            //but the compiler combines them into one single class when the program is compiled.
+            //A developer might split Calculator into two files to organize code better, separate concerns,
+            //or allow multiple developers to work on the same class simultaneously without conflicts.
+            //b. A partial method is declared in one part of a partial class and optionally implemented in another part.
+            // the code will still compile and run successfully, but the partial method will not execute any code since it has no implementation.
+            //c. An extension method lets you add new methods to an existing type without modifying its source code
+            //, without inheritance, and without recompiling.
+            //static class/sttatic method , the first parameter implemented with this keyword
+            //d. $20.00
+            #endregion
         }
     }
 }
